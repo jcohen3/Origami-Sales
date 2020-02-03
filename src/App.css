@@ -1,0 +1,28 @@
+:root{
+ --pink: #e5446d;
+ --gray: #706c71;
+ --mainLight: #f8f4e3;
+ --mainDark: #2a2b2a;
+}
+body {
+  font-family: "brandonLight," !important;
+}
+
+.text-title {
+  font-family: "brandonLight";
+}
+
+.text-pink {
+  color: var(--pink);
+}
+.text-dark {
+  color: var(--mainDark);
+}
+
+@font-face {
+  font-family: "brandonLight";
+  src: url("./Fonts/brandon-light-webfont.woff2") format("woff2"),
+       url("./Fonts/brandon-light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
